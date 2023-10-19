@@ -1,0 +1,170 @@
+i)
+1: Başla
+2: Sayacı sıfırla
+3: While döngüsü: Eğer sayac 10'dan küçük ise: "Merhaba"yı ekrana yazdır sayac'ı bir artır  Değilse: Döngüyü sonlandır
+4: Bitir
+ii)
+1: BAŞLA
+2: sayi=1, toplam = 0
+3: Eğer sayi <= 100 ise 4'e git
+Değilse 7'ye git
+4: Eğer sayi % 2 == 0 ise
+toplam = toplam + sayi
+değilse A5'e git
+5:sayi=sayi+1
+6: A3'e git
+7: YAZ, toplam
+8: BİTİR
+iii)
+1: Başla
+2: Kullanıcıdan ürün fiyatını al
+3: KDV_orani=0.18
+4:Yeni fiyatı hesapla: yeni_fiyat = urun_fiyati + (urun_fiyati * KDV_orani)
+5: Yeni fiyatı ekrana yazdır
+6: Bitir
+iv)
+1:Başla
+2: Kullanıcıdan ilk sayıyı al
+3: Kullanıcıdan ikinci sayıyı al
+4: Kullanıcıdan üçüncü sayıyı al
+5:Toplamı hesapla: toplam = sayi1 + sayi2 + sayi3
+6: Ortalamayı hesapla: ortalama = toplam / 3
+7:Toplamı ve ortalamayı ekrana yazdır: EkranaYaz(toplam, ortalama)
+8:Bitir
+v)
+Başla
+Kullanıcıdan bir sayı al
+Toplam değişkenini sıfırla
+Sayıya kadar olan sayıları toplam değişkenine ekle:
+Başla
+Döngüdeki sayıyı toplama ekle: toplam = toplam + sayi
+Sayıyı bir azalt: sayi = sayi - 1
+Eğer sayı sıfırdan büyükse döngüye devam et, aksi halde döngüden çık
+Dur
+Toplamı ekrana yazdır
+Bitir
+vi)
+Başla
+Kullanıcıdan bir sayı al
+Başlangıç değerini belirle: i = 1
+While döngüsünü başlat:
+Eğer i tek sayı ise:
+i'yi ekrana yazdır
+i'yi bir artır: i = i + 2
+Eğer i sayıdan küçük veya eşitse döngüye devam et, aksi halde döngüyü sonlandır
+Döngü sona erdiğinde programı sonlandır
+Dur
+vii)
+Başla
+Kullanıcıdan Fahrenheit cinsinden sıcaklık değerini al
+Sıcaklığı Celsius'a çevir: celsius = (fahrenheit - 32) * 5.0/9.0
+Celsius değerini ekrana yazdır
+Bitir
+viii)
+1. Başla
+2. Katsayıları al: a = Kullanıcıdan Al(), b = Kullanıcıdan Al()
+3. Eğer a = 0 ise
+    b = 0 ise Sonsuz çözüm vardır. Değilse: Denklem çözümsüzdür.
+4. Değilse:
+x değerini hesapla: x = - b a
+5. x değerini ekrana yazdır
+6. Bitir
+ix)
+Başla
+Kullanıcıdan dikdörtgenin uzun kenarını al
+Kullanıcıdan dikdörtgenin kısa kenarını al
+Çevreyi hesapla: cevre = 2 * (uzun_kenar + kisa_kenar)
+Çevreyi ekrana yazdır
+Bitir
+x)
+Başla
+İlk yazılı puanını al
+İkinci yazılı puanını al
+Performans puanını al
+Not ortalamasını hesapla: ortalama = (yazili1 + yazili2 + performans) / 3
+Eğer ortalama >= 50 ise: "Geçti" yazdır
+Değilse: "Kaldı" yazdır
+Bitir
+xi)
+Başla
+Kullanıcıdan bir sayı al
+Eğer sayi % 2 == 0 ise: "Çift" yazdır, Değilse: "Tek" yazdır
+Bitir
+xi)
+Başla
+İlk sayıyı al: sayi1 
+İkinci sayıyı al: sayi2
+Eğer sayi1 büyükse: "sayi1 büyüktür sayi2" yazdır
+Eğer sayi2 büyükse: "sayi2 büyüktür sayi1" yazdır
+Eğer sayi1 ve sayi2 eşitse: "sayi1 ve sayi2 eşittir" yazdır
+Bitir
+xii)
+Başla
+Kullanıcıdan vize puanını al
+Kullanıcıdan final puanını al
+Notu hesapla: notu = 0.4 * vize + 0.6 * final
+Eğer notu >= 50 ise:
+"Geçti" yazdır
+Değilse:
+"Kaldı" yazdır
+Bitir
+xiii)
+Başla
+Kullanıcıdan bir sayı al
+Eğer sayi % 5 == 0 ise:
+"sayi, 5'in katıdır" yazdır
+Değilse:
+"sayi, 5'in katı değildir" yazdır
+Bitir
+xiv)
+Başla
+Kullanıcıdan bir sayı al
+Eğer 1 <= sayi <= 45 ise:"Girilen sayı belirtilen aralıktadır" yazdır
+Değilse:"Hatalı giriş" yazdır
+Bitir
+xv)
+Başla
+Kullanıcıdan bir 3 basamaklı sayı al
+Birinci basamağı almak için: birinci_basamak = sayi // 100
+İkinci basamağı almak için: ikinci_basamak = (sayi % 100) // 10
+Üçüncü basamağı almak için: ucuncu_basamak = sayi % 10
+Basamak değerlerini ekrana yazdır: (birinci_basamak, ikinci_basamak, ucuncu_basamak)
+Bitir
+xvi)
+Başla
+Kullanıcıdan haftalık çalışma saati bilgisini al
+Eğer calisma_saati <= 30 ise: Maaşı 2500 TL'dir
+Değilse:
+      Mesai saatlerini hesapla: mesai_saatleri = calisma_saati - 30
+      Mesai ücretini hesapla: mesai_ucreti = mesai_saatleri * 10
+      Toplam maaşı hesapla: maas = 2500 + mesai_ucreti
+Maaşı ekrana yazdır
+Bitir
+xvii)
+Başla
+Toplamı saklamak için bir değişken oluştur
+toplam = 0 
+5 kere dönen bir döngü başlat:
+      Kullanıcıdan bir sayı al: sayi = KullanıcıdanAl()
+      toplam değişkenine sayi'yi ekle: toplam = toplam + sayi
+Toplamı ekrana yazdır
+Bitir
+xvii)
+Başla
+Toplamı saklamak için bir değişken oluştur
+toplam = 0
+Kullanıcıdan N sayısı al
+N kere dönen bir döngü başlat:
+    Kullanıcıdan bir sayı al
+    toplam değişkenine sayi'yi ekle: toplam = toplam + sayi
+Toplamı ekrana yazdır
+Bitir
+xviii)
+Başla
+Kullanıcıdan bir miktar al
+Sayac değişkeni kur
+sayac değişkenini 1 olarak ayarla
+Eğer sayac miktar kadar küçük veya eşitse devam et:
+    "Ervin" yazdır
+    sayac'ı bir artır: sayac = sayac + 1
+Bitir
